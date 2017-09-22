@@ -8,7 +8,7 @@ Un jeu basé sur ceux où l'on doit découvrir la séquence (ou code) caché.
 
 ## Installation
 * Installez un serveur web, sous Windows vous avez l'embarras du choix (Wamp, Xamp, Easy-php, etc...); pour Linux la pile LAMP(Apache) ou LEMP(nGinx);
-* Il y as deux usagers 'démo' :
+* Il n'y as pas de base de données, les 'pointages' sont sous '/widgets/common/res/*.csv'.
 
 
 ## Avertissement !

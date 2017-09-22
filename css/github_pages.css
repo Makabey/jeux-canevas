@@ -1,0 +1,16 @@
+header{
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	background-color: #eee;
+}
+
+.container{
+	margin-top: 10px;
+	font-size: 1.2em;
+}
+
+.well.repository{
+	background-color: #fff;
+	border-width: 2px; 
+}

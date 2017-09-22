@@ -1,0 +1,316 @@
+/* Tous */
+*{
+	margin:0;
+	padding:0;
+}
+
+/* Canvas */
+canvas{
+	display:block;
+	position:relative;
+}
+
+fieldset{
+	border:none;
+}
+
+body{
+	text-align:center;
+	padding-top:20px;
+}
+
+.widget_mksoft>p{
+	font-weight:bold;
+	font-size:3em;
+}
+
+body .widget_mksoft{
+	display:inline-block;
+}
+
+.widget_mksoft>div{
+	background-color:#FFF;
+	border:2px solid black;
+	-ms-border-radius:15px;
+	-o-border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	padding:5px;
+	position:relative;
+	display:inline-block;
+}
+
+.combinaison>div{
+	width:275px;
+}
+
+.memoire>div{
+	width:425px;
+}
+
+#frmCfg_Resultat { /* Input - JeuMemoire */
+	border:0px solid #CCCCCC;
+	width:420px;
+}
+
+
+/* dialogue.WinLose Gagne/Perd */
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:not(:first-child) button,
+.widget_mksoft>div>div.dialogue.alerte button{ /* boutons */
+	/*border:2px solid #000000;*/
+	border: none;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	/*padding:1px 4px;*/
+	padding: 3px 6px;
+}
+
+.widget_mksoft>div>div.dialogue{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	z-index:1000;
+	background-color:rgba(128,128,128,0.6);
+	display:none;
+	line-height:490px;
+	text-align:center;
+	-ms-border-radius:15px;
+	-o-border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+
+.widget_mksoft>div>div.dialogue>div{
+	background-color:white;
+	width:90%;
+	padding:7px;
+	vertical-align:middle;
+	display:inline-block;
+	line-height:normal;
+	text-align:center;
+	border:1px solid #333;
+	-ms-border-radius:15px;
+	-o-border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+
+/* dialogue.WinLose Gagne/Perd - Entete */
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:first-child{
+	text-align:right;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:first-child button{
+	padding:0 2px;
+}
+/* \dialogue.WinLose Gagne/Perd - Entete */
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(2){ /* Message */
+	margin-top:10px;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+/* dialogue.WinLose Gagne/Perd - FORM pour soumettre son nom */
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(3) label{
+	display:none;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(3) input{
+	width:180px;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(3) label.phLess{
+	display:inline;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(3) input.phLess{
+	width:150px;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(3) button{ /* bouton Envoyer */
+	background-color:#00aaff;
+	color:white;
+}
+/* \dialogue.WinLose Gagne/Perd - FORM pour soumettre son nom */
+
+ /* Table des scores */
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4)>div{
+	border:1px solid black;
+	-ms-border-radius:7px;
+	-o-border-radius:7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	border-radius:7px;
+	width:12px;
+	height:12px;
+	margin:0 3px;
+	display:inline-block;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table{
+	width:100%;
+	border-collapse:collapse;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table th{
+	background-color:#000;
+	color:#fff;
+	text-align:center;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table tr:nth-child(odd){
+	background-color:#ddd;
+}
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table tr:nth-child(even){
+	background-color:#aaa;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table th,
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table td{
+	padding:3px;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table td:nth-child(1){
+	width:45%;
+	text-align:left;
+}
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table td:nth-child(2){
+	text-align:right;
+}
+
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table th:not(:last-child),
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(4) table td:not(:last-child){
+	border-right:1px solid white;
+}
+ /* \Table des scores */
+
+/* bouton Ferner */
+.widget_mksoft>div>div.dialogue.winlose>div fieldset:nth-child(5) button,
+.widget_mksoft>div>div.dialogue.alerte button{
+	background-color: #33bb66;
+	color: white;
+	font-weight: bold;
+	border: none;
+	margin-top: 10px;
+	padding: 6px 15px;
+}
+/* \bouton Ferner */
+/* \dialogue.WinLose Gagne/Perd */
+
+/* dialogue.Alerte */
+.widget_mksoft>div>div.dialogue.alerte ul{
+	text-align:left;
+	list-style-type:none;
+}
+.widget_mksoft>div>div.dialogue.alerte li{
+	margin:2px;
+	padding:2px;
+}
+.widget_mksoft>div>div.dialogue.alerte li:nth-child(odd){
+	background-color:#ccc;
+}
+/* \dialogue.Alerte */
+
+nav a{
+	text-decoration:none;
+	font-size:2em;
+	color:black;
+}
+
+/* Menus */
+.widget_mksoft>div>div[role="menubar"]{
+	background-color:#ccc;
+	border-top-left-radius:14px;
+	border-top-right-radius:14px;
+	position:relative;
+	z-index:10;
+	text-align:left;
+	left:-5px;
+	top:-5px;
+	padding-left:10px;
+	padding-top:3px;
+}
+.combinaison>div>div[role="menubar"]{
+	width:275px;
+}
+.memoire>div>div[role="menubar"]{
+	width:425px;
+}
+.widget_mksoft>div>div[role="menubar"] ul{
+	list-style-type:none;
+}
+.widget_mksoft>div>div[role="menubar"] li{
+	cursor:default;
+}
+.widget_mksoft>div>div[role="menubar"]>ul{
+	height:1.5em;
+}
+.widget_mksoft>div>div[role="menubar"]>ul>li{
+	display:inline-block;
+	width:135px;
+}
+
+.widget_mksoft>div>div[role="menubar"]>ul>li:hover ul{
+	display:block;
+}
+.widget_mksoft>div>div[role="menubar"]>ul ul{
+	position:absolute;
+	display:none;
+}
+.widget_mksoft>div>div[role="menubar"]>ul ul li{
+	position:relative;
+	top:5px;
+	left:10px;
+	/*background-color:rgba(64,64,64,0.5);*/
+	background-color:#ccc;
+	padding-bottom:2px;
+	padding-right:15px;
+	white-space:nowrap;
+}
+.widget_mksoft>div>div[role="menubar"]>ul ul li:hover{
+	/*background-color:rgba(64,64,64,0.9);*/
+	background-color:#eee;
+	/*color:white;*/
+}
+.widget_mksoft>div>div[role="menubar"]>ul ul li div{
+	width:10px;
+	height:5px;
+	margin:0 5px 2px 5px;
+	display:inline-block;
+	visibility:hidden;
+	border-left:4px solid #333;
+	border-bottom:4px solid #333;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.widget_mksoft>div>div[role="menubar"]>ul ul li[aria-checked="true"]>div:first-child{
+	visibility:visible;
+}
+/*.widget_mksoft>div>div[role="menubar"]>ul ul li[aria-checked="true"]:hover>div{
+	border-color:white;
+}*/
+
+.widget_mksoft>div>div[role="menubar"]>ul ul li.separatorUnder{
+	border-bottom:2px solid black;
+	padding-bottom:3px;
+}
+.widget_mksoft>div>div[role="menubar"]>ul ul li.separatorUnder+li{
+	padding-top:3px;
+}
+
+/* \Menus */
+
+/* EOF */
